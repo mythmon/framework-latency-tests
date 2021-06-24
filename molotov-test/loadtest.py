@@ -1,7 +1,13 @@
 from molotov import scenario
 from faker import Faker
+import os
 
-_API = "http://localhost:8000"
+_API = {
+    "sanic": "http://localhost:9001",
+    "express-full": "http://localhost:9002",
+    "express-quarter": "http://localhost:9002",
+    "actix": "http://localhost:9003",
+}[os.environ['SERVER']]
 
 faker = Faker()
 

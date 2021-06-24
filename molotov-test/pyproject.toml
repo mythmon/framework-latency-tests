@@ -8,6 +8,9 @@ authors = ["Michael Cooper <mythmon@gmail.com>"]
 python = "^3.9"
 molotov = "^2.1"
 Faker = "^8.8.1"
+ipython = {extras = ["notebook"], version = "^7.24.1"}
+matplotlib = "^3.4.2"
+tabulate = "^0.8.9"
 
 [tool.poetry.dev-dependencies]
 

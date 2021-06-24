@@ -34,7 +34,7 @@ async fn main() -> std::io::Result<()> {
             .route("/{name}", web::get().to(incr))
     })
     .workers(4)
-    .bind(("127.0.0.1", 9201))?
+    .bind(("127.0.0.1", 9003))?
     .run()
     .await
 }

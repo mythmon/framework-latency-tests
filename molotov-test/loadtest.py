@@ -7,6 +7,7 @@ _API = {
     "express-full": "http://localhost:9002",
     "express-quarter": "http://localhost:9002",
     "actix": "http://localhost:9003",
+    "spring-boot": "http://localhost:8080",
 }[os.environ['SERVER']]
 
 faker = Faker()
